@@ -1,3 +1,5 @@
+
+// vite.config.ts
 import { defineConfig } from 'vite';
 
 export default defineConfig({
@@ -5,10 +7,8 @@ export default defineConfig({
     lib: {
       entry: 'src/qr-code-element.ts',
       name: 'QRCodeElement',
-      fileName: () => 'qr-lib.js',
-      formats: ['es'],
+      fileName: 'qr-lib',
+      formats: ['es'], // important for <script type="module">
     }
   }
 });
-
-
