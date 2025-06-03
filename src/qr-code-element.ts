@@ -40,5 +40,5 @@ export class QRCodeElement extends LitElement {
   }
 }
 
-
+// ✅ THIS LINE is mandatory for Vite to retain the file
 export default QRCodeElement;
