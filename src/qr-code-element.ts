@@ -39,3 +39,6 @@ export class QRCodeElement extends LitElement {
     `;
   }
 }
+
+
+export default QRCodeElement;
